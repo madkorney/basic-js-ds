@@ -191,62 +191,62 @@ class BinarySearchTree {
 }
 
 
-const tree = new BinarySearchTree();
-console.log('root',tree.root());
-console.log('inorder list _ ', tree.toStringInOrder());
-console.log('inorder arr _ ', tree.toArrayInOrder());
-console.log('max ', tree.max());
+// const tree = new BinarySearchTree();
+// console.log('root',tree.root());
+// console.log('inorder list _ ', tree.toStringInOrder());
+// console.log('inorder arr _ ', tree.toArrayInOrder());
+// console.log('max ', tree.max());
 
-tree.add(10);
+// tree.add(10);
 
-console.log('inorder list _ ', tree.toStringInOrder());
-console.log('has 1 - ', tree.has(1));
-console.log('has 10 - ', tree.has(10));
-console.log('min ', tree.min()); //` => `1`
-console.log('max ', tree.max());
+// console.log('inorder list _ ', tree.toStringInOrder());
+// console.log('has 1 - ', tree.has(1));
+// console.log('has 10 - ', tree.has(10));
+// console.log('min ', tree.min()); //` => `1`
+// console.log('max ', tree.max());
 
-tree.add(2);
-console.log('inorder list _ ', tree.toStringInOrder());
-tree.add(3);
-console.log('inorder list _ ', tree.toStringInOrder());
-tree.add(14);
-tree.add(5);
-console.log('inorder list _ ', tree.toStringInOrder());
-console.log('root data: ', tree.root().data); //` => `1;`
-console.log('min ', tree.min()); //` => `1`
-console.log('max ', tree.max()); //` => `5`
+// tree.add(2);
+// console.log('inorder list _ ', tree.toStringInOrder());
+// tree.add(3);
+// console.log('inorder list _ ', tree.toStringInOrder());
+// tree.add(14);
+// tree.add(5);
+// console.log('inorder list _ ', tree.toStringInOrder());
+// console.log('root data: ', tree.root().data); //` => `1;`
+// console.log('min ', tree.min()); //` => `1`
+// console.log('max ', tree.max()); //` => `5`
 
 
-console.log('inorder list _ ', tree.toStringInOrder());
-console.log('removing -5-');
-tree.remove(5); //
-console.log('has 5 ', tree.has(5)); // => false
-console.log('max ', tree.max()); // `4`
-console.log('inorder list _ ', tree.toStringInOrder());
-console.log('inorder arr _ ', tree.toArrayInOrder());
+// console.log('inorder list _ ', tree.toStringInOrder());
+// console.log('removing -5-');
+// tree.remove(5); //
+// console.log('has 5 ', tree.has(5)); // => false
+// console.log('max ', tree.max()); // `4`
+// console.log('inorder list _ ', tree.toStringInOrder());
+// console.log('inorder arr _ ', tree.toArrayInOrder());
 
-console.log('find existing -3- ', tree.has(3));
-console.log(tree.find(3));
-console.log('find nonexisting -42- ', tree.has(42));
-console.log(tree.find(42));
+// console.log('find existing -3- ', tree.has(3));
+// console.log(tree.find(3));
+// console.log('find nonexisting -42- ', tree.has(42));
+// console.log(tree.find(42));
 
-const tree1 = new BinarySearchTree();
-tree1.add(2);
-tree1.add(7);
-tree1.add(1);
-tree1.add(8);
-tree1.add(4);
-tree1.add(32);
-tree1.add(12);
-tree1.add(14);
-console.log('inorder arr _ ', tree1.toStringInOrder());
-console.log('find  _8_ ', tree1.has(8), ' ', tree1.find(8).data );
-console.log('find  _2_ ', tree1.has(2), ' ', tree1.find(2).data );
-console.log('find  _32_ ', tree1.has(32), ' ', tree1.find(32).data );
-console.log('find  _14_ ', tree1.has(14), ' ', tree1.find(14).data );
-console.log('find  _33_ ', tree1.has(33), ' ', tree1.find(33) );
-console.log('find  _1337_ ', tree1.has(1337), ' ', tree1.find(1337) );
-console.log('find  _42_ ', tree1.has(42), ' ', tree1.find(42) );
+// const tree1 = new BinarySearchTree();
+// tree1.add(2);
+// tree1.add(7);
+// tree1.add(1);
+// tree1.add(8);
+// tree1.add(4);
+// tree1.add(32);
+// tree1.add(12);
+// tree1.add(14);
+// console.log('inorder arr _ ', tree1.toStringInOrder());
+// console.log('find  _8_ ', tree1.has(8), ' ', tree1.find(8).data );
+// console.log('find  _2_ ', tree1.has(2), ' ', tree1.find(2).data );
+// console.log('find  _32_ ', tree1.has(32), ' ', tree1.find(32).data );
+// console.log('find  _14_ ', tree1.has(14), ' ', tree1.find(14).data );
+// console.log('find  _33_ ', tree1.has(33), ' ', tree1.find(33) );
+// console.log('find  _1337_ ', tree1.has(1337), ' ', tree1.find(1337) );
+// console.log('find  _42_ ', tree1.has(42), ' ', tree1.find(42) );
 
 
 // assert.strictEqual(tree.find(33), null);
